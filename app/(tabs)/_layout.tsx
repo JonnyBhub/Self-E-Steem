@@ -32,6 +32,15 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="funzone"
+        options={{
+          title: 'Funzone',
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon name={focused ? 'thunderstorm' : 'thunderstorm-outline'} color={color} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }
