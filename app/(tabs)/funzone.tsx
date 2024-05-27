@@ -20,7 +20,7 @@ export default function Funzone() {
             </Collapsible>
             <ThemedLinkButton 
                 title='Welcome'
-                href = '/(tabs)/explore'
+                href = '/(tabs)/questions'
                 onPress={() => Alert.alert('Welcome to the Funzone!')}
                 >         
             </ThemedLinkButton>
