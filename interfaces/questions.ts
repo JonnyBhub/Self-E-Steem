@@ -1,13 +1,13 @@
-export interface questions {
-    questions: question[];
+export interface Questions {
+    questions: Question[];
 }
 
-export interface answerOptions {
-    answertext: string;
+export interface AnswerOptions {
+    answerText: string;
     isCorrect: boolean;
 }
 
-export interface question {
-    questiontext: string;
-    answerOptions: answerOptions[];
+export interface Question {
+    questionText: string;
+    answerOptions: AnswerOptions[];
 }
